@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.chess-app {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 35px;
+  background-image: url(../src/assets/backgroundimage.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+/* Add this to index.css or a new App.css */
+.download-section {
+ 
+  text-align: center;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4caf50; /* Button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+.download-icon {
+  width: 24px; /* Adjust icon size */
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.app-video {
+  margin-top: 15px;
+  width: 300px; /* Set video width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
